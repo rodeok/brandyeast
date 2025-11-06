@@ -18,40 +18,32 @@ export default function Navbar() {
     {
       title: "Company",
       links: [
-        { label: "About Us", href: "#" },
-        { label: "Our Team", href: "#" },
-        { label: "Careers", href: "#" },
+        { label: "About Us", href: "/company/about" },
+        { label: "Contact Us", href: "/company/contact" },
+        { label: "Brand Expression", href: "/company/brandex" },
+        { label: "Brand Identity", href: "/company/brandid" }, // ✅ Updated route
+        { label: "Brand Presence", href: "/company/brandpr" },
+        { label: "Brand Protection", href: "/company/brandpro" },
       ],
     },
     {
-      title: "Services",
-      links: [
-        { label: "Web Development", href: "#" },
-        { label: "UI/UX Design", href: "#" },
-        { label: "Consulting", href: "#" },
-      ],
+      title: "Projects",
+      links: [{ label: "All Projects", href: "/projects" }],
     },
     {
       title: "Case Studies",
-      links: [
-        { label: "E-commerce", href: "#" },
-        { label: "Healthcare", href: "#" },
-        { label: "Finance", href: "#" },
-      ],
+      links: [{ label: "All case studies", href: "/casestudies" }],
     },
     {
       title: "Insight",
-      links: [
-        { label: "Blog", href: "#" },
-        { label: "Guides", href: "#" },
-        { label: "News", href: "#" },
-      ],
+      links: [{ label: "Insight", href: "/insight" }],
     },
   ];
 
   return (
     <nav className="bg-white shadow-sm w-full fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+        
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
