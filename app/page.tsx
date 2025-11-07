@@ -6,6 +6,7 @@ import Legacy from "@/components/Legacy";
 import Testimonials from "@/components/Testimonials"
 import Faq from "@/components/Faq"
 import Footer from "@/components/Footer";
+import PartnersSection from "@/components/PartnerSec";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Legacy/>
       <Testimonials/>
       <Faq/>
+      <PartnersSection/>
       <Footer/>
     </div>
   );

@@ -11,30 +11,37 @@ const faqs = [
   {
     id: 'item-1',
     question: 'What is Brandyeast, and what makes it different from other branding agencies?',
+    answer: "Brandyeast is a full-service branding agency that focuses on creating lasting legacies through strategic brand development"
   },
   {
     id: 'item-2',
     question: 'What does it mean to build a legacy through branding?',
+    answer: "Building a legacy through branding means creating a brand that transcends temporary trends and establishes lasting value"
   },
   {
     id: 'item-3',
     question: 'How does Brandyeast help with CAC registration and brand protection?',
+    answer: "We provide comprehensive support for Corporate Affairs Commission (CAC) registration and intellectual property protection"
   },
   {
     id: 'item-4',
     question: 'What types of items can Brandyeast print and produce?',
+    answer: "We produce a wide range of branded materials and marketing collateral."
   },
   {
     id: 'item-5',
     question: 'How long does a typical branding project take?',
+    answer: "Project timelines vary based on scope and complexity, typically ranging from 4-12 weeks."
   },
   {
     id: 'item-6',
     question: 'How does Brandyeast measure the success of a branding project?',
+    answer: "We measure success through brand recognition, market impact, and client satisfaction."
   },
   {
     id: 'item-7',
     question: 'Does Brandyeast work with clients outside Nigeria?',
+    answer: "Yes, we work with clients globally while maintaining strong roots in Nigeria."
   },
 ];
 
@@ -57,7 +64,7 @@ export default function FAQSection() {
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 pt-4">
-                Content for {faq.question}
+                {faq.answer}
               </AccordionContent>
             </AccordionItem>
           ))}
