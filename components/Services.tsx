@@ -7,19 +7,19 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 const services = [
   {
-    title: "Yeasted Studios",
+    title: "YEASTED STUDIOS",
     text: "This is the creative arm of Brandyeast, where ideas are conceptualized, designed, and developed into powerful brand visuals and stories, our core strengths include Brand identity design, website design, UI/UX, Creative direction, Content creation, Photography, Videography, and Motion designs.",
   },
   {
-    title: "Yeasted Prints",
+    title: "YEASTED PRINTS",
     text: "This is the printing and production arm, responsible for bringing brand expressions to life through physical and digital materials. Printing of branded items : shirts, banners, vehicles, stationery, packaging, signage, and other promotional materials.",
   },
   {
-    title: "Yeasted managers",
+    title: "YEASTED MANAGERS",
     text: "This is the communication and management arm ensuring brands and their brand meanings stay consistent, from the internal environment of staff and company culture, to the external environment of their customers and other stakeholders, the brand must be understood in meaning across board.",
   },
   {
-    title: "Yeasted Legals",
+    title: "YEASTED LEGALS",
     text: "This is the protection and documentation arm ensuring that every brand built under Brandyeast is legally secured and recognized and protected, be it a name, or every other brand assets and interests.",
   },
 ];
