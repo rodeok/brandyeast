@@ -24,6 +24,7 @@ export default function Navbar() {
         { label: "Brand Identity", href: "/company/brandid" }, // ✅ Updated route
         { label: "Brand Presence", href: "/company/brandpr" },
         { label: "Brand Protection", href: "/company/brandpro" },
+        { label: "Services", href: "/company/services" },
       ],
     },
     {
@@ -43,7 +44,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-sm w-full fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-        
+
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
@@ -70,9 +71,8 @@ export default function Navbar() {
                 {item.title}
                 <ChevronDown
                   size={18}
-                  className={`transition-transform ${
-                    activeDropdown === item.title ? "rotate-180" : "rotate-0"
-                  }`}
+                  className={`transition-transform ${activeDropdown === item.title ? "rotate-180" : "rotate-0"
+                    }`}
                 />
               </button>
 
@@ -133,9 +133,8 @@ export default function Navbar() {
                   {item.title}
                   <ChevronDown
                     size={18}
-                    className={`transition-transform ${
-                      activeDropdown === item.title ? "rotate-180" : "rotate-0"
-                    }`}
+                    className={`transition-transform ${activeDropdown === item.title ? "rotate-180" : "rotate-0"
+                      }`}
                   />
                 </button>
 

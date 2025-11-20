@@ -7,24 +7,24 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 const services = [
   {
-    title: "Brand Protection",
-    text: "We ensure your brand’s legacy is reflected in every product, package, and material with clear, consistent expressions across all touchpoints. From CAC registration to IP management, we safeguard your brand’s future.",
+    title: "Yeasted Studios",
+    text: "This is the creative arm of Brandyeast, where ideas are conceptualized, designed, and developed into powerful brand visuals and stories, our core strengths include Brand identity design, website design, UI/UX, Creative direction, Content creation, Photography, Videography, and Motion designs.",
   },
   {
-    title: "Brand Identity",
-    text: "We don’t just build brands; we craft legacies. Our purpose-driven approach ensures your brand stands the test of time.",
+    title: "Yeasted Prints",
+    text: "This is the printing and production arm, responsible for bringing brand expressions to life through physical and digital materials. Printing of branded items : shirts, banners, vehicles, stationery, packaging, signage, and other promotional materials.",
   },
   {
-    title: "Brand Expression",
-    text: "Every touchpoint, every detail—imprinted with legacy. We ensure every expression of your brand is consistent and impactful.",
+    title: "Yeasted managers",
+    text: "This is the communication and management arm ensuring brands and their brand meanings stay consistent, from the internal environment of staff and company culture, to the external environment of their customers and other stakeholders, the brand must be understood in meaning across board.",
   },
   {
-    title: "Brand Management",
-    text: "We specialize in lasting brand legacies through effective digital and social management, fostering growth and sustained impact.",
+    title: "Yeasted Legals",
+    text: "This is the protection and documentation arm ensuring that every brand built under Brandyeast is legally secured and recognized and protected, be it a name, or every other brand assets and interests.",
   },
 ];
 export default function Navbar() {
- 
+
 
   return (
     <section className="py-20 bg-[#F5F8EF] px-6 md:px-12">
